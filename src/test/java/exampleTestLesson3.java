@@ -5,7 +5,8 @@ public class exampleTestLesson3 {
 
     @Test
     void newTest(){
+        int a = 3;
         System.out.println("Yes this is my automobile");
-        Assertions.assertTrue(3>2);
+        Assertions.assertTrue(a>2);
     }
 }
